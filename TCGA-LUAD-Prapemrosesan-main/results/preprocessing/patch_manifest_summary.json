@@ -1,0 +1,24 @@
+{
+  "manifest_file": "/workspace/TCGA-LUAD/Patches/patch_manifest.csv",
+  "manifest_size_gb": 2.167,
+  "columns": [
+    "patch",
+    "slide",
+    "patient_id",
+    "label",
+    "split",
+    "x",
+    "y",
+    "size",
+    "level",
+    "mask_coverage",
+    "tissue_fraction",
+    "blur_score"
+  ],
+  "slide_column_detected": "slide",
+  "total_patch_records": 11551006,
+  "unique_slides": 200,
+  "min_patches_per_slide": 160,
+  "max_patches_per_slide": 165616,
+  "mean_patches_per_slide": 57755.03
+}

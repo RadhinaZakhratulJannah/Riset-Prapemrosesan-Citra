@@ -1,0 +1,4 @@
+analysis,n,both_correct,abmil_correct_clam_wrong,abmil_wrong_clam_correct,both_wrong,discordant_pairs,exact_p_value,continuity_corrected_chi2,continuity_corrected_p_value,alpha,significant,abmil_accuracy,clam_accuracy
+All TEST - locked thresholds,40,19,1,1,19,2,1.0,0.5,0.47950012218695337,0.05,False,0.5,0.5
+Mutant only - exploratory,10,8,0,1,1,1,1.0,0.0,1.0,0.05,False,0.8,0.9
+Wild-Type only - exploratory,30,11,1,0,18,1,1.0,0.0,1.0,0.05,False,0.4,0.36666666666666664

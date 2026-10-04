@@ -1,0 +1,19 @@
+{
+  "n": 160,
+  "n_mutant": 40,
+  "n_wildtype": 120,
+  "abmil_auc": 0.7283333333333333,
+  "clam_auc": 0.7135416666666667,
+  "abmil_auc_sklearn_check": 0.7283333333333334,
+  "clam_auc_sklearn_check": 0.7135416666666667,
+  "auc_difference_abmil_minus_clam": 0.014791666666666536,
+  "se_difference": 0.02840998880146128,
+  "z": 0.5206502110942656,
+  "p_value_two_sided": 0.6026104643346373,
+  "difference_ci95_low": -0.04089088818538383,
+  "difference_ci95_high": 0.0704742215187169,
+  "alpha": 0.05,
+  "significant_at_alpha": false,
+  "abmil_auprc_descriptive": 0.5589987923194935,
+  "clam_auprc_descriptive": 0.5414368552897586
+}

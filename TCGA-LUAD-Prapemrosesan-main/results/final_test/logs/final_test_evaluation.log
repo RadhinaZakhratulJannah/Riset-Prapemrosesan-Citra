@@ -1,0 +1,87 @@
+nohup: ignoring input
+=========================================================================================================
+FINAL TEST EVALUATION - ABMIL vs CLAM
+=========================================================================================================
+GPU                    : NVIDIA RTX PRO 4500 Blackwell
+TRAIN (hanya cek split): 160
+TEST final             : 40 | {0: 30, 1: 10}
+ABMIL threshold locked : 0.291687
+CLAM threshold locked  : 0.166404
+Threshold TIDAK akan diubah berdasarkan TEST.
+=========================================================================================================
+Memuat feature TEST (40 slide) ke RAM fp16 ...
+TEST cache: 40 slide | 2,292,309 patch | 3.52 GB fp16
+Memuat 5 checkpoint ABMIL + 5 checkpoint CLAM ...
+Menjalankan final inference pada TEST ...
+  [01/40] TCGA-38-4627-01Z-00-DX1.fe406eb9-b38b-410d-aa1a-84ab8ac091c7
+  [02/40] TCGA-38-4628-01Z-00-DX1.eee4f100-142f-4d9c-8e38-b16aab123413
+  [03/40] TCGA-38-6178-01Z-00-DX1.5932337D-BA2B-455D-9E34-22961EFA2170
+  [04/40] TCGA-50-5066-01Z-00-DX1.e161df31-84a4-40a4-a6a2-748b60820f77
+  [05/40] TCGA-55-6980-01Z-00-DX1.2f1d1858-42b9-4e3b-966d-2f3f429570a6
+  [06/40] TCGA-55-6981-01Z-00-DX1.5fecd134-42a0-40a2-be75-1e8bd14c5b30
+  [07/40] TCGA-55-7570-01Z-00-DX1.9020ae67-cf60-4bac-8c60-403c8891c4a3
+  [08/40] TCGA-86-8668-01Z-00-DX1.d720d486-02c7-4f98-8feb-e0e50a12c158
+  [09/40] TCGA-95-7039-01Z-00-DX1.C191A46D-A667-4BF6-8E6B-3E5CBF9DF43F
+  [10/40] TCGA-MP-A4T6-01Z-00-DX1.085C4F5A-DB1B-434A-9D62-E2187D133B0A
+  [11/40] TCGA-44-A479-01Z-00-DX1.CA5654C6-A623-452E-A8AC-DB6279CA97B1
+  [12/40] TCGA-49-6745-01Z-00-DX4.48b4bbb5-4214-4bfb-91e8-bddfa2f03c92
+  [13/40] TCGA-49-AARN-01Z-00-DX1.E13AA041-978E-427D-AFA5-D3180224A03A
+  [14/40] TCGA-50-5045-01Z-00-DX2.0FCA12EA-572E-4A7D-900D-6E200892170E
+  [15/40] TCGA-50-5055-01Z-00-DX2.446EC3BB-2ED7-4253-8A39-AC68331F08E7
+  [16/40] TCGA-62-A46S-01Z-00-DX1.7A8A6F38-76EA-4F43-BC03-1C42E6787E33
+  [17/40] TCGA-62-A46V-01Z-00-DX1.631E54D0-9E57-4932-B4EF-81820E56A95B
+  [18/40] TCGA-62-A470-01Z-00-DX1.3983A979-E756-413C-941A-C8B83AD3BBA7
+  [19/40] TCGA-69-7980-01Z-00-DX1.8bbf8cc0-eca7-49e5-a022-c22e3e6ed6dc
+  [20/40] TCGA-73-4666-01Z-00-DX1.dd9c8922-ddd1-4674-8124-9e334532e47e
+  [21/40] TCGA-73-4676-01Z-00-DX1.4d781bbc-a45e-4f9d-b6b6-2265282dff99
+  [22/40] TCGA-78-7148-01Z-00-DX1.aac94f79-77f2-45e6-b0c3-0b103fecbb22
+  [23/40] TCGA-78-7153-01Z-00-DX1.5190321a-f1aa-4c6e-b4b9-6767b779682b
+  [24/40] TCGA-78-7159-01Z-00-DX1.399d865f-f4f9-4602-b15b-908be0afe459
+  [25/40] TCGA-78-7167-01Z-00-DX1.f79e1a9b-a3eb-4c91-a1fd-7bb58b1620b1
+  [26/40] TCGA-78-7535-01Z-00-DX1.c4ca06f3-22d1-4e39-85c8-98d1fa2b0e60
+  [27/40] TCGA-78-7539-01Z-00-DX1.b838d859-2fb7-48d1-a442-d366ac404099
+  [28/40] TCGA-78-8640-01Z-00-DX1.6F929E56-34D5-45A6-8A9E-ACB4B88A68B1
+  [29/40] TCGA-93-8067-01Z-00-DX1.325d0cd5-9bb5-4f51-a197-75d3c3d19aaf
+  [30/40] TCGA-95-7567-01Z-00-DX1.982FF122-A440-4949-926C-B58AF8381090
+  [31/40] TCGA-95-7948-01Z-00-DX1.FF1AEF38-19E5-4475-87C8-B318204FEF1D
+  [32/40] TCGA-95-A4VP-01Z-00-DX1.1B145AC0-2471-4974-BBB6-C88BDF0BE8BD
+  [33/40] TCGA-97-A4M5-01Z-00-DX1.283AFBA6-A349-425F-A18E-5CA186084C23
+  [34/40] TCGA-L9-A443-01Z-00-DX1.9F68A13A-2865-41BF-88A7-B0DF75961C6F
+  [35/40] TCGA-L9-A444-01Z-00-DX1.88CF6F01-0C1F-4572-81E3-1A5790692861
+  [36/40] TCGA-MN-A4N1-01Z-00-DX1.07CD10C3-73A7-47E5-AD45-45458CE33107
+  [37/40] TCGA-MP-A4SV-01Z-00-DX1.5430F2CF-BE4B-42D6-9CD4-92E6FB3F6E99
+  [38/40] TCGA-MP-A4TC-01Z-00-DX1.C7DB4A7F-F6B8-4FA0-84C1-9B87D41C7749
+  [39/40] TCGA-MP-A5C7-01Z-00-DX1.26E5FA5A-3E6D-4CD3-8FA2-F331B7012311
+  [40/40] TCGA-NJ-A55R-01Z-00-DX1.2E2B3642-4E1C-47DB-AF7B-988D586C0986
+
+=========================================================================================================
+HASIL FINAL TEST - LOCKED THRESHOLDS
+=========================================================================================================
+Metric                        ABMIL         CLAM     CLAM-ABMIL
+auroc                        0.7700       0.7733        +0.0033
+auprc                        0.5774       0.6697        +0.0924
+sensitivity                  0.8000       0.9000        +0.1000
+specificity                  0.4000       0.3667        -0.0333
+accuracy                     0.5000       0.5000        +0.0000
+balanced_accuracy            0.6000       0.6333        +0.0333
+precision                    0.3077       0.3214        +0.0137
+npv                          0.8571       0.9167        +0.0595
+f1                           0.4444       0.4737        +0.0292
+mcc                          0.1816       0.2520        +0.0704
+
+Confusion matrix counts @ locked threshold
+ABMIL: TP=8 TN=12 FP=18 FN=2
+CLAM : TP=9 TN=11 FP=19 FN=1
+
+ABMIL AUROC 95% bootstrap CI: 0.573-0.933
+CLAM  AUROC 95% bootstrap CI: 0.577-0.933
+
+Output:
+  /workspace/TCGA-LUAD/Final_Test_ABMIL_vs_CLAM/final_test_paired_predictions.csv
+  /workspace/TCGA-LUAD/Final_Test_ABMIL_vs_CLAM/final_test_metrics.json
+  /workspace/TCGA-LUAD/Final_Test_ABMIL_vs_CLAM/final_test_metric_comparison.csv
+  /workspace/TCGA-LUAD/Final_Test_ABMIL_vs_CLAM/final_test_summary.md
+  /workspace/TCGA-LUAD/Final_Test_ABMIL_vs_CLAM/FINAL_TEST_OPENED_DO_NOT_TUNE.txt
+
+TEST SUDAH DIBUKA. Jangan tuning lagi setelah melihat hasil ini.
+=========================================================================================================

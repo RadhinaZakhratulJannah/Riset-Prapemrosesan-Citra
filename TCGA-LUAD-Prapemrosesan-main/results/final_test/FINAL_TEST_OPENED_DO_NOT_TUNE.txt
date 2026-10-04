@@ -1,0 +1,5 @@
+FINAL TEST OPENED
+UTC: 2026-10-03T18:03:00.082113+00:00
+ABMIL threshold locked from OOF: 0.291686535
+CLAM threshold locked from OOF: 0.166404292
+Do not tune models or thresholds based on final test results.

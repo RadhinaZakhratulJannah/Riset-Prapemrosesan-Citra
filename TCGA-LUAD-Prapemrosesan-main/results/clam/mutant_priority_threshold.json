@@ -1,0 +1,9 @@
+{
+  "method": "maximize_specificity_subject_to_minimum_sensitivity",
+  "threshold": 0.16640429198741913,
+  "target_met": true,
+  "target_sensitivity": 0.8,
+  "development_sensitivity_at_selected_point": 0.8,
+  "development_specificity_at_selected_point": 0.525,
+  "warning": "Development threshold dari seluruh OOF; kunci sebelum evaluasi TEST."
+}

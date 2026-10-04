@@ -1,0 +1,70 @@
+{
+  "analysis": "INDEPENDENT FINAL TEST - LOCKED MODELS AND THRESHOLDS",
+  "input": "/workspace/TCGA-LUAD/Final_Test_ABMIL_vs_CLAM/final_test_paired_predictions.csv",
+  "thresholds_locked": {
+    "ABMIL": 0.2916865348815918,
+    "CLAM": 0.1664042919874191
+  },
+  "delong_primary": {
+    "n": 40,
+    "n_mutant": 10,
+    "n_wildtype": 30,
+    "abmil_auroc": 0.77,
+    "clam_auroc": 0.7733333333333333,
+    "abmil_auroc_sklearn_check": 0.77,
+    "clam_auroc_sklearn_check": 0.7733333333333334,
+    "delta_auroc_abmil_minus_clam": -0.0033333333333332993,
+    "delta_se": 0.02376090639320505,
+    "delta_ci95_low": -0.049903854104042716,
+    "delta_ci95_high": 0.04323718743737612,
+    "z": -0.14028645533011058,
+    "p_value_two_sided": 0.8884336655758861,
+    "alpha": 0.05,
+    "significant": false
+  },
+  "mcnemar_primary_locked_thresholds": {
+    "n": 40,
+    "both_correct": 19,
+    "abmil_correct_clam_wrong": 1,
+    "abmil_wrong_clam_correct": 1,
+    "both_wrong": 19,
+    "discordant_pairs": 2,
+    "exact_p_value": 1.0,
+    "continuity_corrected_chi2": 0.5,
+    "continuity_corrected_p_value": 0.47950012218695337,
+    "alpha": 0.05,
+    "significant": false,
+    "abmil_accuracy": 0.5,
+    "clam_accuracy": 0.5
+  },
+  "mcnemar_exploratory_mutant_only": {
+    "n": 10,
+    "both_correct": 8,
+    "abmil_correct_clam_wrong": 0,
+    "abmil_wrong_clam_correct": 1,
+    "both_wrong": 1,
+    "discordant_pairs": 1,
+    "exact_p_value": 1.0,
+    "continuity_corrected_chi2": 0.0,
+    "continuity_corrected_p_value": 1.0,
+    "alpha": 0.05,
+    "significant": false,
+    "abmil_accuracy": 0.8,
+    "clam_accuracy": 0.9
+  },
+  "mcnemar_exploratory_wildtype_only": {
+    "n": 30,
+    "both_correct": 11,
+    "abmil_correct_clam_wrong": 1,
+    "abmil_wrong_clam_correct": 0,
+    "both_wrong": 18,
+    "discordant_pairs": 1,
+    "exact_p_value": 1.0,
+    "continuity_corrected_chi2": 0.0,
+    "continuity_corrected_p_value": 1.0,
+    "alpha": 0.05,
+    "significant": false,
+    "abmil_accuracy": 0.4,
+    "clam_accuracy": 0.36666666666666664
+  }
+}

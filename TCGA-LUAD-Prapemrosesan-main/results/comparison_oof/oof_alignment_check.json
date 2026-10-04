@@ -1,0 +1,8 @@
+{
+  "n_abmil": 160,
+  "n_clam": 160,
+  "same_slides": true,
+  "same_targets": true,
+  "same_folds": true,
+  "paired_ready": true
+}

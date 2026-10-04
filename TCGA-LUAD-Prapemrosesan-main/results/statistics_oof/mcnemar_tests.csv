@@ -1,0 +1,5 @@
+n,both_correct,abmil_correct_clam_wrong,abmil_wrong_clam_correct,both_wrong,discordant_pairs,mcnemar_exact_p,mcnemar_chi2_continuity_corrected,mcnemar_chi2_cc_p,mcnemar_chi2_uncorrected,mcnemar_chi2_uncorrected_p,primary_p_value,alpha,significant_at_alpha,abmil_accuracy,clam_accuracy,comparison,abmil_threshold,clam_threshold,exploratory
+160,92,9,25,34,34,0.00904118549078703,6.617647058823529,0.010097314647507242,7.529411764705882,0.006069972362023284,0.00904118549078703,0.05,True,0.63125,0.73125,threshold_0.5_both,0.5,0.5,
+160,84,10,10,56,20,1.0,0.05,0.8230632737581214,0.0,1.0,1.0,0.05,False,0.5875,0.5875,mutant_priority_thresholds_development,0.2916865348815918,0.16640429198741913,
+40,29,3,2,6,5,1.0,0.0,1.0,0.2,0.6547208460185768,1.0,0.05,False,0.8,0.775,mutant_only_at_mutant_priority_thresholds,0.2916865348815918,0.16640429198741913,True
+120,55,7,8,50,15,1.0,0.0,1.0,0.06666666666666667,0.7962534147376392,1.0,0.05,False,0.5166666666666667,0.525,wildtype_only_at_mutant_priority_thresholds,0.2916865348815918,0.16640429198741913,True

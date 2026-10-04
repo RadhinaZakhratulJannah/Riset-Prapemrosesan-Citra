@@ -1,0 +1,171 @@
+{
+  "analysis": "independent_final_test",
+  "timestamp_utc": "2026-10-03T18:03:00.041658+00:00",
+  "n_train_split_check_only": 160,
+  "n_test": 40,
+  "n_test_mutant": 10,
+  "n_test_wildtype": 30,
+  "test_patches": 2292309,
+  "test_cache_fp16_gb": 3.520986624,
+  "thresholds_locked_from_oof_cv": {
+    "ABMIL": 0.2916865348815918,
+    "CLAM": 0.16640429198741913
+  },
+  "ABMIL": {
+    "locked_threshold_metrics": {
+      "threshold": 0.2916865348815918,
+      "auroc": 0.77,
+      "auprc": 0.5773863636363636,
+      "sensitivity": 0.8,
+      "specificity": 0.4,
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.6000000000000001,
+      "precision": 0.3076923076923077,
+      "npv": 0.8571428571428571,
+      "f1": 0.4444444444444444,
+      "mcc": 0.18156825980064073,
+      "tp": 8,
+      "tn": 12,
+      "fp": 18,
+      "fn": 2
+    },
+    "bootstrap_ci95": {
+      "auroc_ci95": [
+        0.5733333333333334,
+        0.9333333333333333
+      ],
+      "auprc_ci95": [
+        0.3797358433339891,
+        0.8900183189655171
+      ]
+    },
+    "reference_threshold_0.5_metrics": {
+      "threshold": 0.5,
+      "auroc": 0.77,
+      "auprc": 0.5773863636363636,
+      "sensitivity": 0.6,
+      "specificity": 0.9333333333333333,
+      "accuracy": 0.85,
+      "balanced_accuracy": 0.7666666666666666,
+      "precision": 0.75,
+      "npv": 0.875,
+      "f1": 0.6666666666666666,
+      "mcc": 0.5773502691896257,
+      "tp": 6,
+      "tn": 28,
+      "fp": 2,
+      "fn": 4
+    },
+    "checkpoint_metadata": [
+      {
+        "fold": 1,
+        "epoch": 8,
+        "checkpoint_score": 0.6517603245184767,
+        "path": "/workspace/TCGA-LUAD/ABMIL_MutantPriority/fold_1/best_model.pt"
+      },
+      {
+        "fold": 2,
+        "epoch": 1,
+        "checkpoint_score": 0.5790736442676097,
+        "path": "/workspace/TCGA-LUAD/ABMIL_MutantPriority/fold_2/best_model.pt"
+      },
+      {
+        "fold": 3,
+        "epoch": 6,
+        "checkpoint_score": 0.6569667022792023,
+        "path": "/workspace/TCGA-LUAD/ABMIL_MutantPriority/fold_3/best_model.pt"
+      },
+      {
+        "fold": 4,
+        "epoch": 16,
+        "checkpoint_score": 0.7011078042328043,
+        "path": "/workspace/TCGA-LUAD/ABMIL_MutantPriority/fold_4/best_model.pt"
+      },
+      {
+        "fold": 5,
+        "epoch": 39,
+        "checkpoint_score": 0.9014880952380953,
+        "path": "/workspace/TCGA-LUAD/ABMIL_MutantPriority/fold_5/best_model.pt"
+      }
+    ]
+  },
+  "CLAM": {
+    "locked_threshold_metrics": {
+      "threshold": 0.16640429198741913,
+      "auroc": 0.7733333333333334,
+      "auprc": 0.6697392500859993,
+      "sensitivity": 0.9,
+      "specificity": 0.36666666666666664,
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.6333333333333333,
+      "precision": 0.32142857142857145,
+      "npv": 0.9166666666666666,
+      "f1": 0.47368421052631576,
+      "mcc": 0.25197631533948484,
+      "tp": 9,
+      "tn": 11,
+      "fp": 19,
+      "fn": 1
+    },
+    "bootstrap_ci95": {
+      "auroc_ci95": [
+        0.5766666666666667,
+        0.9333333333333333
+      ],
+      "auprc_ci95": [
+        0.4411028498355864,
+        0.8870628898128893
+      ]
+    },
+    "reference_threshold_0.5_metrics": {
+      "threshold": 0.5,
+      "auroc": 0.7733333333333334,
+      "auprc": 0.6697392500859993,
+      "sensitivity": 0.5,
+      "specificity": 0.9,
+      "accuracy": 0.8,
+      "balanced_accuracy": 0.7,
+      "precision": 0.625,
+      "npv": 0.84375,
+      "f1": 0.5555555555555556,
+      "mcc": 0.4330127018922193,
+      "tp": 5,
+      "tn": 27,
+      "fp": 3,
+      "fn": 5
+    },
+    "checkpoint_metadata": [
+      {
+        "fold": 1,
+        "epoch": 5,
+        "checkpoint_score": 0.5554144646035378,
+        "path": "/workspace/TCGA-LUAD/CLAM_SB_MutantPriority_Final/fold_1/best_model.pt"
+      },
+      {
+        "fold": 2,
+        "epoch": 1,
+        "checkpoint_score": 0.5664266513056835,
+        "path": "/workspace/TCGA-LUAD/CLAM_SB_MutantPriority_Final/fold_2/best_model.pt"
+      },
+      {
+        "fold": 3,
+        "epoch": 5,
+        "checkpoint_score": 0.647369953416149,
+        "path": "/workspace/TCGA-LUAD/CLAM_SB_MutantPriority_Final/fold_3/best_model.pt"
+      },
+      {
+        "fold": 4,
+        "epoch": 9,
+        "checkpoint_score": 0.631238608636858,
+        "path": "/workspace/TCGA-LUAD/CLAM_SB_MutantPriority_Final/fold_4/best_model.pt"
+      },
+      {
+        "fold": 5,
+        "epoch": 13,
+        "checkpoint_score": 0.7706439393939394,
+        "path": "/workspace/TCGA-LUAD/CLAM_SB_MutantPriority_Final/fold_5/best_model.pt"
+      }
+    ]
+  },
+  "warning": "FINAL TEST has been opened. Do not tune hyperparameters, thresholds, folds, or model selection based on these results."
+}

@@ -1,0 +1,13 @@
+numpy
+pandas
+torch
+torchvision
+timm
+scikit-learn
+scipy
+matplotlib
+opencv-python
+scikit-image
+openslide-python
+h5py
+requests
